@@ -1,5 +1,3 @@
-
-
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
@@ -31,14 +29,6 @@ public class FastCopy {
 		}
 		catch(IOException e) {
 			System.out.println(e);
-		}
-		finally {
-			try {
-				inBuffer.close();
-				outBuffer.close();
-				inFile.close();
-				outFile.close();
-			} catch(Exception e) { }
 		}
 	}
 }

@@ -23,13 +23,5 @@ public class Copy {
 		catch(IOException e) {
 			e.printStackTrace();
 		}
-		finally {
-			try {
-				inFile.close();
-				outFile.close();
-			} catch(Exception e) { 
-				e.printStackTrace();
-			}
-		}
 	}
 }

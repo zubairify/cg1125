@@ -30,13 +30,5 @@ public class SuperFastCopy {
 		catch(IOException e) {
 			System.out.println(e);
 		}
-		finally {
-			try {
-				inChannel.close();
-				outChannel.close();			
-				inFile.close();
-				outFile.close();
-			} catch(Exception e) { }
-		}
 	}
 }
